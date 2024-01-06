@@ -1,0 +1,123 @@
+*{
+   margin: 0; 
+   padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.banner{
+    height: 100vh;
+    background-image: url('./images/banner.jpeg');
+    background-size: cover;
+    display: grid;
+    gap: 20px;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    color:white;
+}
+.banner >h1{
+    font-size: 44px;
+}
+    
+
+.banner header{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.banner header span{
+    color: rgb(0, 162, 255);
+}
+p{
+    line-height: 1.8;
+    font-size: 26px;
+}
+
+.banner p{
+    width: 60%;
+}
+
+button{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 7px;
+    color: white;
+    background-color: rgb(0, 162, 255);
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 25px;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.card, .cards{
+    padding: 40px 60px;
+
+}
+.card {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.icon {
+    border-radius: 90%;
+    height: 300px;
+    width: 300px;
+}
+.card p, .cards p{
+    color: gray;
+}
+.card p{
+    
+    margin: 15px 0;
+    text-align: justify;
+}
+.card-blue{
+    background-color: rgb(0, 162, 255);
+    flex-direction: row-reverse;
+    color: white;
+}
+.card-blue p{
+    color: white;
+
+}
+.card-blue button{
+    background-color: white;
+    color: rgb(0, 162, 255);
+}
+ .card-blue img{
+    padding: 10px;
+    border: 2px solid white ;
+ }
+ .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+ }
+ .cards article{
+    display: grid;
+    gap: 25px;
+    justify-items: center;
+    text-align: center;
+ }
+ footer{
+    display: grid;
+    justify-items: center;
+    padding: 100px 80px 15px 80px;
+    gap: 25px;
+    color: gray;
+ }
+ .social-icons{
+    display: flex;
+    gap: 35px;
+ }
+ .social-icons img{
+    width: 35px;
+ }
+ footer span{
+    font-weight: 900;
+    color: black;
+ }
